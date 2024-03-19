@@ -1,0 +1,437 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\!Game2\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/!Game2/GitTEST/FirstUnityProject-main/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50925
+Successfully changed project path to: D:/!Game2/GitTEST/FirstUnityProject-main/My project
+D:/!Game2/GitTEST/FirstUnityProject-main/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21808] Host "[IP] 192.168.50.57 [Port] 0 [Flags] 2 [Guid] 2164499901 [EditorId] 2164499901 [Version] 1048832 [Id] WindowsEditor(7,User1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21808] Host "[IP] 192.168.50.57 [Port] 0 [Flags] 2 [Guid] 2164499901 [EditorId] 2164499901 [Version] 1048832 [Id] WindowsEditor(7,User1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 10.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path D:/!Game2/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/!Game2/GitTEST/FirstUnityProject-main/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'D:/!Game2/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/!Game2/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/!Game2/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/!Game2/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/!Game2/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004273 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.222 seconds
+Domain Reload Profiling: 553ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (175ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 1031ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4493.
+Memory consumption went from 143.8 MB to 143.8 MB.
+Total: 2.890100 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.255000 ms MarkObjects: 2.257300 ms  DeleteObjects: 0.089700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8784.100438 seconds.
+  path: Assets/Adventures/Hero/Sprites/hero tri.jpg
+  artifactKey: Guid(650cc17e058af8847b1b3fb6ef56a102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Hero/Sprites/hero tri.jpg using Guid(650cc17e058af8847b1b3fb6ef56a102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776d87b719ce0c2ffc38123abd1fbc21') in 0.130517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 40.314301 seconds.
+  path: Assets/Adventures/Texture/Territory/bushe22_0.asset
+  artifactKey: Guid(a8dcc7bba7bcdb34ca5117ef054f29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/bushe22_0.asset using Guid(a8dcc7bba7bcdb34ca5117ef054f29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ed126a5c2040ef19d4cf04bfb19d10') in 0.006964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _2.asset
+  artifactKey: Guid(54b2513cb1f0fa1458eb10995a9ff89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _2.asset using Guid(54b2513cb1f0fa1458eb10995a9ff89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025201b170dcc434a2216f3c7e0ac96') in 0.003002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001279 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 .png
+  artifactKey: Guid(595f123c6e41bb443976d9b714938cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 .png using Guid(595f123c6e41bb443976d9b714938cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a34e4e3255bd9114bee7bf643768738') in 0.043359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _6.asset
+  artifactKey: Guid(d542aa63a4ff50349a1b0b5484224495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _6.asset using Guid(d542aa63a4ff50349a1b0b5484224495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956463eb8acd53574be829510f558e59') in 0.004590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/grass+flower 2.png
+  artifactKey: Guid(3a023d9ca2c65544aa20a671fbeb9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/grass+flower 2.png using Guid(3a023d9ca2c65544aa20a671fbeb9649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b8618da55fb3acc4d7ef95ccd1c37b') in 0.005786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/Water full+_7.asset
+  artifactKey: Guid(51050cbd126b7fb49b9d25f246a30df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/Water full+_7.asset using Guid(51050cbd126b7fb49b9d25f246a30df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a28ce6e8c725395f74fdc234917c6180') in 0.003345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _20.asset
+  artifactKey: Guid(c36ef425daf8aa0469e2d81b463f01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _20.asset using Guid(c36ef425daf8aa0469e2d81b463f01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91389472fb32c095b2388fbe8843de06') in 0.003102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/New Palette.prefab
+  artifactKey: Guid(5009c90e7eb61b24e8a9df89190a72d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/New Palette.prefab using Guid(5009c90e7eb61b24e8a9df89190a72d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7e3a0c8927ebd1eef90391695af394') in 0.054253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Adventures/Texture/Territory/grass block.png
+  artifactKey: Guid(ee9b8b15beece10408e254265a1c711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/grass block.png using Guid(ee9b8b15beece10408e254265a1c711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c62c5adff7f3a0c0ba759734c0c231') in 0.004634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventures/Texture/Territory/Water full+_10.asset
+  artifactKey: Guid(5390fd3cd8ec62245bd477352ed8585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/Water full+_10.asset using Guid(5390fd3cd8ec62245bd477352ed8585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5695c234e175c084fa791af14f9b82') in 0.002694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _24.asset
+  artifactKey: Guid(2d7de549f44b2c744837f516d3dba4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _24.asset using Guid(2d7de549f44b2c744837f516d3dba4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c71582e3b57c0ca00af8067ed9a5b57') in 0.002559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/grass wall 2_1.asset
+  artifactKey: Guid(2b18c709b5ea7cf4fadaeb2b0eb1f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/grass wall 2_1.asset using Guid(2b18c709b5ea7cf4fadaeb2b0eb1f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d15aee7a7eb1583686cbe0eca22aad') in 0.003122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _12.asset
+  artifactKey: Guid(1afaf1a8ffd1ddc40beb1491736ff8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _12.asset using Guid(1afaf1a8ffd1ddc40beb1491736ff8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d06cec864b1b0b8f86610c237f29549') in 0.003604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Adventures/Texture/Territory/dirt rode fixed_7.asset
+  artifactKey: Guid(f6152518fba62524ca6556891a014f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/dirt rode fixed_7.asset using Guid(f6152518fba62524ca6556891a014f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc48b11b3690cea823a0b8cd5ff5d516') in 0.003044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/dirt rode fixed_3.asset
+  artifactKey: Guid(dc5d15afc508bdc4ab63c62633bdd85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/dirt rode fixed_3.asset using Guid(dc5d15afc508bdc4ab63c62633bdd85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d75508a15ae2c8385b6e4087a1b299') in 0.003168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/tree222_0.asset
+  artifactKey: Guid(8f657996f10002e4db142adb441040e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/tree222_0.asset using Guid(8f657996f10002e4db142adb441040e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e3b9b79a9d53eb1183c53fe695ae14') in 0.004989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/Water full+_4.asset
+  artifactKey: Guid(efd71fd6668ff8a4c8d6ef80b5d6ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/Water full+_4.asset using Guid(efd71fd6668ff8a4c8d6ef80b5d6ab6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c069328e8fff2efd8c9285903e575afa') in 0.003669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/grass wall 2_4.asset
+  artifactKey: Guid(c1d1075924e1af14fa2e22bd44950d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/grass wall 2_4.asset using Guid(c1d1075924e1af14fa2e22bd44950d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c553854d628273798ee91c4c635a85d') in 0.003396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/dirt rode fixed_8.asset
+  artifactKey: Guid(27c6751fdf1405c45b915b93db2bbde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/dirt rode fixed_8.asset using Guid(27c6751fdf1405c45b915b93db2bbde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db18fdb803e823683c598ca5a88e57d') in 0.004356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventures/Texture/Territory/Water full+_3.asset
+  artifactKey: Guid(07b169a49b6a2fc45b0ca354a48a8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/Water full+_3.asset using Guid(07b169a49b6a2fc45b0ca354a48a8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932abdf3e7d29b0687ccad1560b1f098') in 0.003465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _22.asset
+  artifactKey: Guid(0b7dc0f9dd430ba459f3376c0e94164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _22.asset using Guid(0b7dc0f9dd430ba459f3376c0e94164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675020b8bb8210a4ba29fc23d606d19e') in 0.003186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _13.asset
+  artifactKey: Guid(9f121f0d4b8ae7649974e8c5dddf3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _13.asset using Guid(9f121f0d4b8ae7649974e8c5dddf3860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0dd026345fb41d06a1d31ba5d2219') in 0.002814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _17.asset
+  artifactKey: Guid(d106d83208f478a44a42d92d8383f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _17.asset using Guid(d106d83208f478a44a42d92d8383f93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd461490b4beb365ed85566dc1fdb9e5c') in 0.003270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _0.asset
+  artifactKey: Guid(885c27e1b1744754bb7eb7124dee70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _0.asset using Guid(885c27e1b1744754bb7eb7124dee70db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f91b62ba1d7c9bb7997bab91c46ff') in 0.002930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Adventures/Texture/Territory/dirt rode fixed.png
+  artifactKey: Guid(ca174479ef72d994888d3f8e476c7368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/dirt rode fixed.png using Guid(ca174479ef72d994888d3f8e476c7368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ead2106f7bf539f8fceceb3d627d570') in 0.012962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _3.asset
+  artifactKey: Guid(e8f367fe9ab821d4fbd95c844f68bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _3.asset using Guid(e8f367fe9ab821d4fbd95c844f68bc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6088c09dde5247ca7bf6953fd48f9863') in 0.003468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _9.asset
+  artifactKey: Guid(ea3c3d2d960c9d540a46684dc9084ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _9.asset using Guid(ea3c3d2d960c9d540a46684dc9084ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dad06fbcbed0e0b04db330bbf734b4') in 0.002804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Adventures/Texture/Territory/grass wall 2_8.asset
+  artifactKey: Guid(0903c344116ff964f9da7a99f9ef791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/grass wall 2_8.asset using Guid(0903c344116ff964f9da7a99f9ef791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672c5179c84fbcb42bda8b1e3d4d3ce1') in 0.002609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _25.asset
+  artifactKey: Guid(782d031299e32e34ea38165e835f32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _25.asset using Guid(782d031299e32e34ea38165e835f32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c30a2403245f343027a308e5154307') in 0.002770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Adventures/Texture/Territory/cliff dirt 2 _14.asset
+  artifactKey: Guid(58755db476f6d634bba2e699ec06818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventures/Texture/Territory/cliff dirt 2 _14.asset using Guid(58755db476f6d634bba2e699ec06818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda6344044cfd3bc9707c2762f9276fa') in 0.003641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
